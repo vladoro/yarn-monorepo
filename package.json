@@ -1,0 +1,19 @@
+{
+  "name": "yarn-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/app",
+    "packages/dep1",
+    "packages/dep2",
+    "packages/micro-service"
+  ],
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna  bootstrap --use-workspaces"
+  }
+}

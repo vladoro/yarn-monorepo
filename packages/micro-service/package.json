@@ -1,0 +1,20 @@
+{
+  "name": "micro-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chalk": "4.1.0",
+    "dep1": "1.0.0",
+    "dep2": "1.0.0"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "lerna": "latest",
+  "version": "fixed",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/app",
+    "packages/dep1",
+    "packages/dep2",
+    "packages/micro-service"
+  ]
+}
