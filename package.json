@@ -11,6 +11,7 @@
     "packages/micro-service"
   ],
   "scripts": {
-    "bootstrap": "lerna  bootstrap --use-workspaces"
+    "start-app": "cd packages/app && yarn start",
+    "start-micro-service": "cd packages/micro-service && yarn start"
   }
 }
