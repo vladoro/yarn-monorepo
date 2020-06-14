@@ -10,9 +10,6 @@
     "packages/dep2",
     "packages/micro-service"
   ],
-  "dependencies": {
-    "lerna": "^3.22.1"
-  },
   "scripts": {
     "bootstrap": "lerna  bootstrap --use-workspaces"
   }
